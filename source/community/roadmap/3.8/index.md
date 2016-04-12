@@ -1126,6 +1126,45 @@ both when Linux is used as a client and as a server.
 * **Advertisement**
   *(link to emails in gluster-devel archive with blog and video)*
 
+
+
+
+
+
+### Lock migration(experimental)
+This feature will enable rebalance process to migrate the locks present on source to the destination. In the current infra the lock state of a file are lost when a file moves across server as part of rebalance.
+
+* **Status**:
+  Feature page posted. Design is ready. check: https://www.gluster.org/pipermail/gluster-devel/2016-January/048088.html
+  Development in progress
+
+* **Owners**:
+  Susant Palai, Raghavendra Gowdappa, Pranith Kumar Karampuri
+
+* **Feature Page**:
+  Posted here: https://github.com/gluster/glusterfs-specs/blob/master/accepted/Lock-Migration.md
+
+* **Tracker Bug and Patches**:
+  ...
+
+* **Maintainer**
+  *(patch to additional [`MAINTAINERS`][MAINTAINERS] entry)*
+
+* **DiSTAF Testcase**:
+  ...
+
+* **Release Notes**:
+  *(link to email in gluster-devel archive with release notes)*
+
+* **User Documentation**
+  *(link to the pull request for the [Admin Guide] or other official docs)*
+
+* **Integration and Eco-system**
+  **TODO**: Samba/NFS-Ganesha patches/proposal
+
+* **Advertisement**
+  *(link to emails in gluster-devel archive with blog and video)*
+
 # At Risk
 
 ### Integrate with external resource management software
